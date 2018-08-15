@@ -14,7 +14,6 @@
 
 a {
 	text-decoration: none;
-	
 }
 
 a:hover {
@@ -23,22 +22,20 @@ a:hover {
  	opacity: 0.87;
 }
 
-
 .textlink {
 	margin-left: 15px;
 	color: rgba(0,0,0,0.87);
-	vertical-align: middle;
+	vertical-align: bottom;
 	line-height: 30px;
+	position: relative;
+	top: -2px;
 }
-/*為何不能用vertical middle? */ 
-
 
 .icon {
 	width: 30px;
 	height: 30px;
 	display: inline-block;
 	margin-left: 15px;
-
 }
 
 .program {
@@ -82,12 +79,10 @@ a:hover {
 	margin-top: 155px; 
 }
 
-img {
+.googlelogo {
 	width: 272px;
 	height: 92px;
 }
-
-
 
 .searchbox {
 	width: 584px;
@@ -107,7 +102,6 @@ img {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-
 input {
 	display: inline-block;
 	width: 503px;
@@ -123,7 +117,6 @@ input {
 input:focus {
 	outline: none;
 }
-
 
 .micro {
 	width: 56px;
@@ -154,8 +147,6 @@ button {
 	padding: 0 16px;
 	margin: 0 2px;
 }
-
-/* button之間有預設空間？*/
 
 button:hover {
 	color: #222222;
@@ -196,17 +187,14 @@ span {
 	font-size: 15px;
 	color: rgba(0,0,0,0.54);
 	margin: 0;
-	background-color: #ddd;
 	position: absolute;
 	top: 50%;
-	transform: translate(-50%);
-
+	transform: translateY(-50%);
 }
 
 .adsbox {
 	color: #666;
 }
-
 
 .ads {
 	padding-left: 3px;
