@@ -3,6 +3,10 @@
 	font-size: 13px;
 }
 
+body {
+	margin: 0;
+}
+
 .header {
 	text-align: right;
 	vertical-align: middle;
@@ -160,9 +164,8 @@ button:focus {
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
-	left: 0;
 	width: 100%;
 }
 
